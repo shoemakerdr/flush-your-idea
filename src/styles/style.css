@@ -1,0 +1,14 @@
+
+.wrapper {
+  position: relative;
+}
+
+.background-img {
+  max-width: 100%;
+}
+
+.fish {
+  position: absolute;
+  top: 48.2%;
+  left: 57%;
+}
