@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .wrapper {
@@ -18,6 +17,55 @@
   width: 4%;
 }
 
+.title {
+  position: absolute;
+  left: 2.5%;
+  top: 5%;
+  width: 25%;
+  line-height: 4rem;
+  color: #8decfc;
+  font-size: 15%;
+}
+
+.subtitle {
+  position: absolute;
+  left: 2.5%;
+  margin: 9rem 0;
+  color: #8decfc;
+  font-size: 2rem;
+}
+
 .ideaInput {
   position: absolute;
+  left: 2.5%;
+  background: transparent;
+  border: none;
+  border-bottom: 8px solid #999797;
+  width: 25%;
+  margin: 6rem 0;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: #999797;
+  outline: none;
+}
+
+.ideaInput:hover {
+  border-color: #b1acac;
+  color: #b1acac;
+}
+
+.ideaInput:focus {
+  border-color: #8decfc;
+  color: #8decfc;
+}
+
+.toiletWaterWrapper {
+  position: absolute;
+  width: 30%;
+  margin: 8.8rem 0;
+}
+
+.toiletWater {
+  max-width: 100%;
+  opacity: .5;
 }
